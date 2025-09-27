@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Trabalho - Concesionária de Caminhões </title>
+</head>
+<style>
+  body {
+background-color: black; 
+color: white;
+}
+
+#introducao {
+color: red;         
+  font-size: 3em;     
+  text-align: center; 
+  margin-top: 20px;
+}
+h1 {
+font-size: 2.5em;
+  color: #222;
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 1.8em;
+  color: #444;
+  margin-top: 40px;
+}
+
+#marcas{
+
+   display: block;
+  margin: 0 auto;   
+  width: 80%;      
+  max-width: 600px;
+  height: auto;
+}
+#produtos {
+  text-align: center;
+  padding: 50px 20px;
+}
+.preco {
+  font-weight: bold;
+  color: green;
+}
+.caminhao {
+ display: inline-block;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 90%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.caminhao img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#vantagens ul {
+  list-style-type: none; 
+  padding: 0;
+  text-align: center;
+}
+
+#vantagens li {
+  background: #f4f4f4;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 60%;
+  font-size: 1.2em;
+}
+
+#vantagens li:hover {
+  background: #ddd; 
+}
+
+#normal {
+color: white;
+}
+
+nav {
+  background-color: #222;  
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;   
+  margin: 0;
+  padding: 0;
+  display: flex;           
+  justify-content: center; 
+}
+
+nav ul li {
+  margin: 0 20px;          
+}
+
+nav ul li a {
+  color: white;           
+  text-decoration: none;   
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;              
+}
+
+
+</style>
+<body>
+<h1 id="introducao"> SS CAMINHÕES &#128666;&#128666; </h1>
+
+<nav>
+  <ul>
+    <li><a href="#topo">Início</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+     </ul>
+</nav>
+
+<h1 id = "normal">Concessionária especializada em caminhões novos e usados</h1>
+<h2 id = "normal">Aqui você encontra de tudo em diversas marcas de caminhões:</h2>
+<img id="marcas" src="img/marca.png" alt="Marcas de Caminhões">
+
+<section id="produtos">
+  <h2 id = "normal">Nossos Caminhões: </h2>
+
+
+    <div class="caminhao">
+    <img src="img/540.jpg" alt="Volvo FH 540">
+    <h3>Volvo FH 540 - 6X4 - 2018</h3>
+    <p>Potência e conforto para longas distâncias.</p>
+     <ul>
+      <li>Motor potente e a configuração 6x4 para transporte de cargas pesadas</li>
+      <li>O sistema de câmbio automático I-Shift para maior conforto e economia de combustível</li>
+      <li>E um interior focado no motorista com recursos como banco a ar, ar-condicionado e cama grande para o descanso. </li>
+      <li>Direção Dinâmica Volvo (VDS) para manobras precisas</li>
+     </ul>
+    <p> 50.000 km rodados </p>
+    <p class="preco">R$ 500.000,00</p>
+  </div>
+
+ <div class="caminhao">
+  <h3>Scania Super R500 - 6X2 - 2025</h3>
+  <img src="img/super.jpg" alt="Scania Super 500">
+    <p>Eficiência e robustez para qualquer transporte.</p>
+     <ul>
+      <li>Maior eficiência de combustível (até 8% de economia)</li>
+      <li>Maior potência e torque com um motor de 6 cilindros</li>
+      <li>Intervalos de manutenção mais longos (até 50% maiores)</li>
+      <li>Mais robustez para cargas pesadas, e o benefício de um sistema de transmissão V-Tronic com tecnologia Predictive Shifting que otimiza as trocas de marcha com base no GPS e no relevo. </li>
+     </ul>
+    <p> 0 KM&#x1F525; </p>
+    <p class="preco">R$ 970.000,00</p>
+ 
+  </div>
+  <div class="caminhao">
+  <h3> Mercedes-Benz 1113 - Truck - 1978</h3>
+   <img src="img/benz.webp" alt="Mercedes-Benz 1113">
+   <p> Simplicidade, robusteza, confiabilidade, segurança e versatilidade.</p>
+   <p> 111.000 km rodados e Super conservado&#x1F525;&#x1F525;  </p>
+     <p class="preco">R$ 78.000,00</p>
+  </div>
+
+  <div class="caminhao">
+    <h3> VW Delivery 8-150 Baú - 2010</h3>
+     <img src="img/delivery.jpg" alt="VW Delivery 8-150">
+     <p> Caminhão zerado pronto pra trabalhar </p>
+    <p> 150.000 km rodados </p>
+     <p class="preco">R$ 90.000,00</p>
+     <ul>
+      <li>Direção hidráulica</li>
+      <li>Travas elétricas</li>
+      <li>Sensor de ré</li>
+      <li>Baú de alumínio 6.00 metros</li>
+     </ul>
+</div>
+
+<div class="caminhao">
+<h3> DAF XG+ Special Edition 75 - 2025/26 </h3>
+<img src="img/daf.jpg" alt="DAF XG+ Special Edition 75">
+<p>O DAF XG+ Special Edition 75 celebra os 75 anos da DAF com melhorias de conforto, tecnologia e design</p>
+<p>0 KM&#x1F525;&#x1F525;</p>
+<p class="preco">R$ R$ 765.560,00</p>
+<ul>
+<li>Motor Paccar MX-13 de 480 cv</li>
+<li>Completo kit aerodinâmico</li>
+<li>Sistema de visão digital com câmeras Corner Eye</li>
+<li>Bancos de couro giratórios e aquecidos</li>
+<li>Sistema de áudio com subwoofer</li>
+<li>Alumínio Alcoa Dura-Bright</li>
+</ul>
+</div>
+
+
+<div class="caminhao">
+<h3> Iveco Tector 11190 - 2022 </h3>
+<img src="img/iveco.jpg" alt="Iveco Tector 11190">
+<p>Robustez e força para o trabalho pesado, excelente desempenho com menor consumo de combustível</p>
+<p> 20.000 km rodados </p>
+<p class="preco">R$ 280.000,00</p>
+<ul>
+<li>Motor Potente e Econômico</li>
+<li>Transmissão Otimizada</li>
+<li>Trem de Força Eficiente</li>
+<li>Suspensão Robusta</li>
+<li>Cabine Confortável</li>
+<li>Unico dono e pouco rodado </li>
+</ul>
+</div>
+
+
+</section>
+<section id="contato">
+  <h2 id = "normal" >Fale Conosco:</h2>
+  <p>📞 Telefone para Vendas: 3353-2811</p>
+  <p>📞 Telefone para Dúvidas: 3353-2222</p>
+  <p>📧 Email:
+  <a href="https://mail.google.com/mail/?view=cm&tosamuelarthur2811@gmail.com" target="_blank">samuelarthur2811@gmail.com</a> </p>
+  <p>💬 WhatsApp: 
+    <a href="https://wa.me/5562984118135" target="_blank">Clique aqui para falar no WhatsApp</a>
+  </p>
+</section>
+</body>
+</html>
